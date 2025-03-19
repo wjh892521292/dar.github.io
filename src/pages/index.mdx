@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-title: Academic Project Page Template
+title: Scalable Autoregressive Monocular Depth Estimation
 description: Simple project page template for your research paper, built with Astro and Tailwind CSS
 favicon: favicon.svg
 thumbnail: screenshot.png
@@ -30,35 +30,51 @@ export const components = {pre: CodeBlock, table: Table}
   title={frontmatter.title}
   authors={[
     {
-      name: "Roman Hauksson",
-      url: "https://roman.technology",
-      institution: "Independent",
-      notes: ["*", "†"],
+      name: "Jinhong Wang",
+      url: "",
+      institution: "ZJU",
+      notes: ["*"],
     },
     {
-      name: "Author Two",
-      institution: "Institution Two",
-      notes: ["*", "†"],
+      name: "Jian Liu",
+      institution: "Ant Group",
     },
     {
-      name: "Author Three",
-      institution: "Institution Three",
+      name: "Dongqi Tang",
+      institution: "Ant Group",
+    },
+    {
+      name: "Weiqiang Wang",
+      institution: "Ant Group",
+    },
+    {
+      name: "Wentong Li",
+      institution: "ZJU",
+    },
+    {
+      name: "Danny Chen",
+      institution: "University of Notre Dame",
+    },
+    {
+      name: "Jintai Chen",
+      institution: "HKUST (Guangzhou)",
       notes: ["†"],
     },
     {
-      name: "Author Four",
-      institution: "Institution Four",
+      name: "Jian Wu",
+      institution: "ZJU",
+      notes: ["†"],
     },
   ]}
-  conference="Conference Name"
+  conference="CVPR 2025"
   notes={[
     {
       symbol: "*",
-      text: "author note one",
+      text: "Equal Contribution",
     },
     {
       symbol: "†",
-      text: "author note two",
+      text: "Corresponding Authors",
     },
   ]}
   links={[
@@ -69,12 +85,12 @@ export const components = {pre: CodeBlock, table: Table}
     },
     {
       name: "Code",
-      url: "https://github.com/RomanHauksson/academic-project-astro-template",
+      url: "https://github.com/wjh892521292/DAR",
       icon: "mdi:github",
     },
     {
       name: "arXiv",
-      url: "",
+      url: "https://arxiv.org/abs/2411.11361",
       icon: "academicons:arxiv",
     },
   ]}
